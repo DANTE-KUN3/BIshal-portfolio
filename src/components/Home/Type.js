@@ -9,8 +9,8 @@ function Type() {
           "Web Developer",
           "AWS Developer",
           "Terraform",
-          "Cloud Engineer"
-          "DevOps Engineer",
+          "Cloud Engineer",
+          "DevOps Engineer"
         ],
         autoStart: true,
         loop: true,
