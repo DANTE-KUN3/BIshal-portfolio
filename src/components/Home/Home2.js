@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -13,43 +13,35 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+        
         <Row>
           <Col md={8} className="home-about-description">
+          
+
+
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+         
             <p className="home-about-body">
-              I fell in love with Cloud and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js </b>
-              </i>
+            <h1>
+                I'M
+                <strong className="main-name"> Bishal Parikh </strong>
+              </h1>
+            <br />
+            I fell in love with Cloud Computing, and it has become my playground. 🚀
+            <br />
+            <br />
+            I specialize in <b className="purple">AWS and Azure cloud platforms, with expertise in Python, JavaScript, and DevOps tools like Docker, Kubernetes, and Terraform.
+            <br /> </b>
+            <br />
+            My passion lies in building scalable <b className="purple">cloud solutions, web technologies, and blockchain applications.</b>
+            <br />
+            <br />
+            I love working with <b className="purple">React, Next.js, and Node.js, combining modern frameworks with cloud infrastructure</b> to create high-performance applications.
+            <br />
+            <br />
+            From serverless architectures to automated <b className="purple">CI/CD pipelines</b>, I thrive on solving real-world challenges and optimizing workflows.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +59,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +69,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/beeeshal"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,22 +79,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/bishalparikh/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
