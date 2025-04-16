@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import todo from "../../Assets/Projects/todo.png";
 import future from "../../Assets/Projects/future.jpeg";
 import dapp from "../../Assets/Projects/dapp.png";
+import Devops from "../../Assets/Projects/Devops.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -47,6 +49,17 @@ function Projects() {
               description="A simple task management system built with React that allows users to create, edit, complete, and delete tasks. Users can add new tasks through an input field, toggle task completion via checkboxes, and update task titles inline. The UI dynamically updates using React state, providing an interactive experience. The system ensures an efficient task-tracking workflow, helping users stay organized and productive."
               ghLink="https://github.com/DANTE-KUN3/Task-app"
               demoLink="https://task-app-dun-beta.vercel.app/"              
+            />
+          </Col>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Devops}
+              isBlog={false}
+              title="DevOps Automation Project"
+              description="Automated the provisioning and configuration of AWS EC2 instances using Terraform and Ansible. Terraform handles the infrastructure setup, while Ansible installs required software and configures instances post-deployment. Integrated with GitHub Actions for seamless automation. Project structure includes modular Terraform files and Ansible playbooks with dynamic inventory support."
+              ghLink="https://github.com/DANTE-KUN3/Devops-Project"
+              demoLink=""              
             />
           </Col>
 
