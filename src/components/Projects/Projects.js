@@ -41,17 +41,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={todo}
-              isBlog={false}
-              title="Task-App"
-              description="A simple task management system built with React that allows users to create, edit, complete, and delete tasks. Users can add new tasks through an input field, toggle task completion via checkboxes, and update task titles inline. The UI dynamically updates using React state, providing an interactive experience. The system ensures an efficient task-tracking workflow, helping users stay organized and productive."
-              ghLink="https://github.com/DANTE-KUN3/Task-app"
-              demoLink="https://task-app-dun-beta.vercel.app/"              
-            />
-          </Col>
-
          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Devops}
