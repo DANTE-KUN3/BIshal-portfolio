@@ -26,7 +26,7 @@ function Projects() {
               title="Future Self Messaging Platform"
               description="Developed a serverless web application that allows users to schedule and send messages to their future selves via email. Built the backend using AWS Lambda, API Gateway, and DynamoDB for scalability and cost efficiency. The frontend was deployed on Vercel for seamless performance. Implemented AWS Security Groups and VPC to enhance security, ensuring safe data transmission and storage."
               ghLink="https://github.com/DANTE-KUN3/Future"
-              demoLink="future-r10ezqwn4-bishals-projects-17f06703.vercel.app"
+              demoLink="https://future-mxkq.vercel.app/"
             />
           </Col>
 
