@@ -6,6 +6,7 @@ import todo from "../../Assets/Projects/todo.png";
 import future from "../../Assets/Projects/future.jpeg";
 import dapp from "../../Assets/Projects/dapp.png";
 import Devops from "../../Assets/Projects/Devops.png";
+import gamers from "../../Assets/Projects/gamers.png";
 
 function Projects() {
   return (
@@ -51,8 +52,17 @@ function Projects() {
               demoLink=""              
             />
           </Col>
-
-        </Row>
+    <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={gamers} // Replace with your actual image import
+    isBlog={false}
+    title="GamersGlitch – Gaming Marketplace"
+    description="GamersGlitch is a full-stack web application that enables users to buy and sell gaming assets like skins, accounts, and merchandise. Built with Next.js, MongoDB, Auth0, and AWS S3, it features secure authentication, image uploads, and real-time listing management. This is my first complete full-stack project, and I plan to keep improving it over time."
+    ghLink="https://github.com/bishalparikhh/gg"
+    demoLink="https://www.gamersglitch.in"
+  />
+</Col>
+     </Row>
       </Container>
     </Container>
   );
